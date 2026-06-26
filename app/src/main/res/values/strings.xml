@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitVault</string>
+    <string name="repo_list_title">仓库</string>
+    <string name="add_repo">添加仓库</string>
+    <string name="settings">设置</string>
+    <string name="pull">拉取</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="repo_name">仓库名称</string>
+    <string name="repo_url">仓库 URL</string>
+    <string name="access_token">访问令牌 (Access Token)</string>
+    <string name="token_hint">粘贴 GitHub/Gitee Personal Access Token</string>
+    <string name="no_repos">还没有仓库</string>
+    <string name="no_repos_hint">点击右下角 + 添加你的第一个 Git 仓库</string>
+    <string name="cloning">正在克隆…</string>
+    <string name="pulling">正在拉取…</string>
+    <string name="clone_success">克隆完成</string>
+    <string name="clone_failed">克隆失败</string>
+    <string name="pull_success">拉取完成</string>
+    <string name="pull_failed">拉取失败</string>
+    <string name="delete_confirm">确定要删除这个仓库的本地副本吗？</string>
+    <string name="back">返回</string>
+    <string name="no_file_selected">请选择一个文件</string>
+    <string name="loading">加载中…</string>
+    <string name="empty_directory">空目录</string>
+    <string name="manage_tokens">管理访问令牌</string>
+    <string name="token_label">令牌标签（如 GitHub、Gitee）</string>
+    <string name="no_tokens">还没有保存的访问令牌</string>
+    <string name="add_token">添加令牌</string>
+    <string name="token_saved">令牌已保存</string>
+    <string name="token_deleted">令牌已删除</string>
+</resources>
