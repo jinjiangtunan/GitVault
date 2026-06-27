@@ -99,7 +99,6 @@ dependencies {
 
     // Markwon (Markdown)
     implementation("io.noties.markwon:core:4.6.2")
-    implementation("io.noties.markwon:simple-ext:4.6.2")
     implementation("io.noties.markwon:ext-tasklist:4.6.2")
     implementation("io.noties.markwon:recycler-table:4.6.2")
     implementation("io.noties.markwon:image-coil:4.6.2")
