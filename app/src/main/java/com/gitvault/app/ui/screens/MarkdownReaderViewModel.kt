@@ -9,7 +9,6 @@ import com.gitvault.app.domain.FileExplorer
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import io.noties.markwon.Markwon
-import io.noties.markwon.ext.strikethrough.StrikethroughPlugin
 import io.noties.markwon.ext.tables.TablePlugin
 import io.noties.markwon.ext.tasklist.TaskListPlugin
 import io.noties.markwon.image.coil.CoilImagesPlugin
@@ -40,8 +39,7 @@ class MarkdownReaderViewModel @Inject constructor(
     private val markwon: Markwon by lazy {
         Markwon.builder(context)
             .usePlugin(CoilImagesPlugin.create(context))
-            .usePlugin(StrikethroughPlugin.create())
-            .usePlugin(TablePlugin.create())
+            .usePlugin(TablePlugin.create(context))
             .usePlugin(TaskListPlugin.create(context))
             .build()
     }
