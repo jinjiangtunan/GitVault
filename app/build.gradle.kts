@@ -93,7 +93,7 @@ dependencies {
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
     // JGit
-    implementation("org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r") {
+    implementation("org.eclipse.jgit:org.eclipse.jgit:6.8.0.202311291450-r") {
         exclude(group = "org.jetbrains", module = "annotations-java5")
     }
 

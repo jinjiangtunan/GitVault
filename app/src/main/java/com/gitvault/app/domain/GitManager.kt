@@ -58,7 +58,6 @@ class GitManager @Inject constructor() {
                     }
                     override fun endTask() {}
                     override fun isCancelled(): Boolean = false
-                    override fun showDuration(enabled: Boolean) {}
                 })
 
             if (!token.isNullOrBlank()) {
@@ -105,7 +104,6 @@ class GitManager @Inject constructor() {
                         }
                         override fun endTask() {}
                         override fun isCancelled(): Boolean = false
-                        override fun showDuration(enabled: Boolean) {}
                     })
 
                 if (!token.isNullOrBlank()) {
