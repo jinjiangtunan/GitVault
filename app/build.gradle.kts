@@ -99,7 +99,7 @@ dependencies {
     implementation("io.noties:markwon-image-coil:4.6.2")
     implementation("io.noties:markwon-syntax-highlight:4.6.2")
     implementation("io.noties:prism4j:2.0.0")
-    kapt("io.noties:prism4j-compiler:2.0.0")
+    kapt("io.noties:prism4j-bundler:2.0.0")
 
     // Coil (image loading)
     implementation("io.coil-kt:coil-compose:2.6.0")
