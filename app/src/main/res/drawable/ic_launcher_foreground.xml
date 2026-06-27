@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Book/notebook icon representing GitVault -->
+    <group
+        android:translateX="28"
+        android:translateY="26"
+        android:scaleX="1.0"
+        android:scaleY="1.0">
+        <!-- Book spine -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M4,2h6v52H4c-2.2,0-4-1.8-4-4V6c0-2.2,1.8-4,4-4z"/>
+        <!-- Book pages -->
+        <path
+            android:fillColor="#E0D5FC"
+            android:pathData="M10,6h38v44H10V6z"/>
+        <!-- Git branch icon on the page -->
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M20,14m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M20,42m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M39,28m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+        <path
+            android:strokeColor="#7C3AED"
+            android:strokeWidth="2"
+            android:pathData="M20,17v22M20,19l19,6M20,39l19,-6"/>
+    </group>
+</vector>
