@@ -13,9 +13,6 @@ import io.noties.markwon.ext.strikethrough.StrikethroughPlugin
 import io.noties.markwon.ext.tables.TablePlugin
 import io.noties.markwon.ext.tasklist.TaskListPlugin
 import io.noties.markwon.image.coil.CoilImagesPlugin
-import io.noties.markwon.syntax.Prism4jThemeDarkula
-import io.noties.markwon.syntax.SyntaxHighlightPlugin
-import io.noties.prism4j.Prism4j
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -41,10 +38,8 @@ class MarkdownReaderViewModel @Inject constructor(
     val renderedMarkdown: StateFlow<Spanned?> = _renderedMarkdown.asStateFlow()
 
     private val markwon: Markwon by lazy {
-        val prism4j = Prism4j(GrammarLocator())
         Markwon.builder(context)
             .usePlugin(CoilImagesPlugin.create(context))
-            .usePlugin(SyntaxHighlightPlugin.create(prism4j, Prism4jThemeDarkula.create()))
             .usePlugin(StrikethroughPlugin.create())
             .usePlugin(TablePlugin.create())
             .usePlugin(TaskListPlugin.create(context))
