@@ -6,6 +6,10 @@ plugins {
     id("org.jetbrains.kotlin.kapt")
 }
 
+configurations.all {
+    exclude(group = "org.jetbrains", module = "annotations-java5")
+}
+
 android {
     namespace = "com.gitvault.app"
     compileSdk = 34
