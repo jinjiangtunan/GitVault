@@ -92,12 +92,12 @@ dependencies {
     implementation("org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r")
 
     // Markwon (Markdown)
-    implementation("io.noties:markwon-core:4.6.2")
-    implementation("io.noties:markwon-ext-strikethrough:4.6.2")
-    implementation("io.noties:markwon-ext-tables:4.6.2")
-    implementation("io.noties:markwon-ext-tasklist:4.6.2")
-    implementation("io.noties:markwon-image-coil:4.6.2")
-    implementation("io.noties:markwon-syntax-highlight:4.6.2")
+    implementation("io.noties.markwon:core:4.6.2")
+    implementation("io.noties.markwon:simple-ext:4.6.2")
+    implementation("io.noties.markwon:ext-tasklist:4.6.2")
+    implementation("io.noties.markwon:recycler-table:4.6.2")
+    implementation("io.noties.markwon:image-coil:4.6.2")
+    implementation("io.noties.markwon:syntax-highlight:4.6.2")
     implementation("io.noties:prism4j:2.0.0")
     kapt("io.noties:prism4j-bundler:2.0.0")
 
