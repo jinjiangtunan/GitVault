@@ -89,7 +89,9 @@ dependencies {
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
     // JGit
-    implementation("org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r")
+    implementation("org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r") {
+        exclude(group = "org.jetbrains", module = "annotations-java5")
+    }
 
     // Markwon (Markdown)
     implementation("io.noties.markwon:core:4.6.2")
