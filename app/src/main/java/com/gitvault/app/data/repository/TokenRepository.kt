@@ -1,5 +1,6 @@
 package com.gitvault.app.data.repository
 
+import com.gitvault.app.data.db.TokenDao
 import com.gitvault.app.data.model.AccessTokenEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
